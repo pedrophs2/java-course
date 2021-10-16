@@ -1,0 +1,14 @@
+package dates;
+
+import java.util.GregorianCalendar;
+
+public class GregorianTest {
+	public static void main(String[] args) {
+		GregorianCalendar date = new GregorianCalendar();
+		System.out.println(date);
+		
+		date.add(GregorianCalendar.DAY_OF_YEAR, -30);
+		System.out.println(date);
+	}
+
+}
